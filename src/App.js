@@ -15,7 +15,7 @@ class App extends Component{
     super(props);
     this.state = {videos:[]}; //it is an array
     this.selectedVideo = null;
-    this.videoSearch("surfboards");
+    this.videoSearch("");
   }
   videoSearch(term){
     YTSearch({key:API_KEY, term:term}, (data) =>{
