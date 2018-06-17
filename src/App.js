@@ -9,7 +9,6 @@ import lodash from 'lodash'
 
 // Create new component. This component should produce some html
 const API_KEY =process.env.REACT_APP_YOUTUBE_API_KEY;
-console.log(API_KEY);
 // const API_KEY = "AIzaSyC7-cyDhwFarMGtL0j4AU0uath3GZxpmLE";
 // alert();
 class App extends Component{
